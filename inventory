@@ -1,2 +1,1 @@
-[localhost]
-52-RoryJensen-LT
+localhost ansible_connection=local 

@@ -1,0 +1,40 @@
+- name: Install software
+  hosts: localhost
+  vars:
+    brew_packages:
+      - python
+      - ansible
+      - openssl
+      - gh
+      - git
+      - jq
+      - mas
+      - awscli
+      - azure-cli
+      - google-cloud-sdk
+      - vault
+      - terraform
+    cask_apps:
+      - bettertouchtool
+      - blockblock
+      - do-not-disturb
+      - lulu
+      - oversight
+      - monitorcontrol
+      - private-internet-access
+      - visual-studio-code
+      - vlc
+    mas_apps:
+      - { id: 1142578753, name: "OmniGraffle 7" }
+      - { id: 1352778147, name: "Bitwarden" }
+
+  tasks:
+    - name: Install homebrew packages
+      homebrew:
+        name: "{{ brew_packages }}"
+        state: present
+    - name: Install homebrew casks
+      homebrew_cask:
+        name: "{{ cask_apps }}"
+        state: present
+        accept_external_apps: True
