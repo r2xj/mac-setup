@@ -15,6 +15,7 @@
       - vault
       - telnet
       - terraform
+      - wget
     cask_apps:
       - bettertouchtool
       - blockblock
