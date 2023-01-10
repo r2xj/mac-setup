@@ -13,6 +13,7 @@
       - azure-cli
       - google-cloud-sdk
       - vault
+      - telnet
       - terraform
     cask_apps:
       - bettertouchtool
