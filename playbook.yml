@@ -11,7 +11,6 @@
       - mas
       - awscli
       - azure-cli
-      - google-cloud-sdk
       - vault
       - telnet
       - terraform
@@ -20,6 +19,7 @@
       - bettertouchtool
       - blockblock
       - do-not-disturb
+      - google-cloud-sdk
       - lulu
       - oversight
       - monitorcontrol
