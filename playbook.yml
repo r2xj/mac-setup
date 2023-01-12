@@ -26,6 +26,7 @@
       - private-internet-access
       - visual-studio-code
       - vlc
+      - wireshark
     mas_apps:
       - { id: 1142578753, name: "OmniGraffle 7" }
       - { id: 1352778147, name: "Bitwarden" }
