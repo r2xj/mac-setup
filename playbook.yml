@@ -18,11 +18,13 @@
     cask_apps:
       - bettertouchtool
       - blockblock
+      - calibre
       - do-not-disturb
       - google-cloud-sdk
       - lulu
       - oversight
       - monitorcontrol
+      - powershell
       - private-internet-access
       - visual-studio-code
       - vlc
