@@ -34,6 +34,7 @@
     mas_apps:
       - { id: 1142578753, name: "OmniGraffle 7" }
       - { id: 1352778147, name: "Bitwarden" }
+      - { id: 1295203466, name: "Microsoft Remote Desktop" }
 
   tasks:
     - name: Install homebrew packages
