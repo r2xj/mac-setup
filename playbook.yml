@@ -30,6 +30,7 @@
       - sonos
       - visual-studio-code
       - vlc
+      - vmware-horizon-client
       - wireshark
     mas_apps:
       - { id: 1142578753, name: "OmniGraffle 7" }
